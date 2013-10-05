@@ -1,0 +1,236 @@
+     #dkdigest_container {
+             font-family: verdana, sans-serif;
+             font-size:100%;
+          }
+         
+     #dkdigest_container  .container {       
+             width:1000px;
+             margin:0 auto;
+          }
+         
+    
+         
+     #dkdigest_container .header {          
+				 display: none;         
+          }
+		  
+     #dkdigest_container .content {
+	 
+             float:left;
+                 width:1100px;
+                 margin-bottom: 5px;
+				 margin-top: 20px;
+          }
+         
+     #dkdigest_container .page {
+		     float:left;
+          }
+		  
+	 #dkdigest_container .page>div {
+		     float:left;
+			 margin:0 0 0;			
+			 height: 30px;
+			 width: 130px;
+			 padding: 4px 10px;
+			 border: solid 1px #aaa;	 
+			 border-left: none;
+			 font-size: 12px;
+		  }
+         
+     #dkdigest_container div.entrytitle {
+             margin-top: 0;
+             font-size:1.2em;
+             font-weight:bold;
+             width:200px;    
+             height:30px;
+             line-height:30px;
+             text-align:center;
+                 
+             background: #eee;
+               
+             border-radius:10px;
+             -moz-border-radius:10px;
+             -webkit-border-radius:10px;
+				 
+			 float: left;
+			 clear:left;
+			 padding: 4px 50px;	 
+          }
+		  
+	 #dkdigest_container .page>div.caption {
+	    border-bottom: none;
+     }	 
+	 #dkdigest_container div.caption:first-child {
+	 
+	       width: 200px;
+		   padding: 4px 50px;
+     }	 
+		  
+     #dkdigest_container .entrytitle a {
+             color:#999;
+                 text-decoration: none;
+                 
+          }
+     #dkdigest_container .entrytitle a:hover {
+             color:#555;
+          }
+          
+         
+     #dkdigest_container .entryeditpanel {      
+             margin-top:10px;
+             overflow:hidden;
+			 /*position: relative;*/
+			 top: -40px;
+			 height: 80px!important;
+			 
+          }
+	 
+     #dkdigest_container .entryeditpanel>div {
+	     margin-top:4px;
+     }	 
+     #dkdigest_container .editpanel {
+              overflow:hidden;
+			  clear: both;
+          }
+      #dkdigest_container .editbutton, 
+	  #dkdigest_container .deletebutton, 
+	  #dkdigest_container .addbutton, 
+	  #dkdigest_container .backtolistbutton {
+         
+             background:#ff9;
+                 font-weight:bold;
+                 font-size: 12px;
+                 text-align:center;
+                 padding:1px 10px;
+                 margin-right:5px;
+                 
+                 border: solid 2px #800;
+                 -moz-border-radius: 8px;
+                 -webkit-border-radius: 8px;
+                 border-radius: 8px;               
+                 float:left;
+          }
+         
+       #dkdigest_container .editbutton a, 
+	   #dkdigest_container .deletebutton a, 
+	   #dkdigest_container .addbutton a, 
+	   #dkdigest_container .backtolistbutton a{
+         
+             color:#c00;
+                 text-decoration: none;
+          }
+    
+         
+       #dkdigest_container .sidebar {
+             
+				 display:none;
+          }
+         
+        #dkdigest_container .footer {
+                 clear:both;               
+                 background: #f0f0f0;
+                 padding:0;
+				 margin-bottom:20px;        
+          }
+ 
+        #dkdigest_container div.clearfix {
+		   clear: left;	 
+		   width:0;
+		   height:0;
+		   padding:0;
+		   border:none;
+		}
+         
+        #dkdigest_container .navigation {
+             margin-top:4px;
+             overflow: hidden;
+          }
+         
+         #dkdigest_container .navigation ul {
+             list-style-type:none;
+          }
+          #dkdigest_container .navigation li {
+             float:left;
+                 margin-right: 5px;
+                 text-align:center;
+                 height:40px;
+                 line-height:40px;
+                 background: white;
+                 font-weight: bold;
+                 width: 40px;
+                 border: solid 1px #555;
+                 -moz-border-radius:4px;
+                 -webkit-border-radius:4px;
+          }
+		  
+    #dkdigest_container .navigation li a,
+    #dkdigest_container .navigation li a:visited {
+	
+             text-decoration:none;
+                 color: #800;
+          }
+     #dkdigest_container .navigation li a:hover {
+             text-decoration: underline;
+          }
+         
+      #dkdigest_container form {
+             
+                 padding:20px 40px 10px 20px;
+          }
+         
+      #dkdigest_container fieldset {
+             padding-top:10px;
+          }
+         
+      #dkdigest_container legend {
+            
+				 display: none;
+          }
+      #dkdigest_container label {
+                 display:block;
+                 float:left;
+                 clear:left;
+                 width:200px;
+                 margin-right:10px;
+                 margin-top: 5px;
+          }
+      #dkdigest_container input,  
+	  #dkdigest_container select {
+	  
+             display: block;
+                 
+                 border: solid 1px #aaa;
+                 border-radius: 4px;
+                 -moz-border-radius: 4px;
+                 -webkit-border-radius: 4px;
+                 padding:2px 5px;
+                 margin-top:5px;
+          }
+         
+      #dkdigest_container input[type=text] {
+             width:400px;
+          }
+         
+       #dkdigest_container input[type=submit], 
+	   #dkdigest_container input[type=button] {
+         
+             background:#ffa;
+                 float:left;
+                 border:solid 2px #a00;
+                 border-radius 8px;
+                 -moz-border-radius 8px;
+                 -webkit-border-radius 8px;
+                 color:#b00;
+                 cursor:pointer;
+                 padding:4px 20px;
+                 
+                 font-size:1em;
+                 margin-right:10px;
+                 margin-top:10px;
+                 
+          }
+		  
+	  #dkdigest_container #all_ajax_status {
+		  
+		     display: none;
+		  }
